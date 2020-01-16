@@ -10,9 +10,9 @@ cout<<"Sorting"<<endl;
  //insertionSort complexity: n*n
 for(int i=1;i<Size;i++)
     { temp=Arr[i];
-        for(int j=i-1;j>=0;j--)
+        for(int j=i-1;j+1>=0;j--)
         {
-        if(temp>=Arr[j])
+        if(temp>=Arr[j]||j+1==0)
             {
                Arr[j+1]=temp;
                break;
