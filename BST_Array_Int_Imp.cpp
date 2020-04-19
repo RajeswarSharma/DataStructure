@@ -30,15 +30,7 @@ void Insert(int data)
         }
     }
 }
-/*void Insert(int data)
-{
-    if(counter==0)
-    {
-    cout<<"Root Inserted"<<endl;
-    BST[counter]=data;
-    }
-    else if(data<)
-}*/
+
 int main()
 {
 
